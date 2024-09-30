@@ -1,5 +1,7 @@
 # LSTM And GRU Deep Learning Project - Predicting Next Word
 
+![Project Banner](https://example.com/project-banner.gif)  <!-- Replace with an actual GIF link -->
+
 This project demonstrates the use of Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) neural networks for the task of predicting the next word in a sequence of text. The model is trained on a large corpus of text and is designed to learn patterns of language to predict the next word given a sequence of previous words.
 
 ## Table of Contents
@@ -24,6 +26,8 @@ This project demonstrates the use of Long Short-Term Memory (LSTM) and Gated Rec
 
 Next-word prediction is a crucial component of various applications such as text auto-completion, machine translation, and conversational AI. This project uses deep learning techniques with LSTM and GRU models to predict the next word in a sequence.
 
+![Next Word Prediction Animation](https://example.com/next-word-prediction.gif)  <!-- Replace with an actual GIF link -->
+
 ## Dataset
 
 The project uses a large dataset of text, which is tokenized and cleaned to train the models. The dataset is split into input sequences where each word is used to predict the next one in the sequence. Tokenization and padding are applied to make sequences uniform, and a word-to-index mapping is created for vocabulary management.
@@ -34,13 +38,19 @@ The project uses a large dataset of text, which is tokenized and cleaned to trai
 
 The LSTM model is designed to capture long-term dependencies in text sequences. It consists of an embedding layer that converts words into dense vectors, two LSTM layers that capture sequential patterns, a dropout layer to prevent overfitting, and a final dense layer that outputs predictions using a softmax activation function.
 
+![LSTM Architecture](https://example.com/lstm-architecture.gif)  <!-- Replace with an actual GIF link -->
+
 ### GRU Model
 
 The GRU model is an alternative to LSTM, designed to be computationally lighter while still capturing sequential patterns. It also includes an embedding layer, two GRU layers for processing the input sequence, a dropout layer for regularization, and a dense layer with softmax activation for word prediction.
 
+![GRU Architecture](https://example.com/gru-architecture.gif)  <!-- Replace with an actual GIF link -->
+
 ## Training
 
 The models are trained using categorical cross-entropy loss and the Adam optimizer. Training is done in batches with a validation split to monitor the model's performance and avoid overfitting. The number of epochs, batch size, and optimizer configuration can be tuned for optimal performance.
+
+![Training Process Animation](https://example.com/training-animation.gif)  <!-- Replace with an actual GIF link -->
 
 ## Evaluation
 
@@ -74,9 +84,11 @@ To run this project:
 The project showcases the comparison between LSTM and GRU models in terms of next-word prediction. Typically, the LSTM model tends to perform better at capturing long-term dependencies, while the GRU model offers a faster and more efficient alternative with slightly lower accuracy.
 
 - **LSTM Model Accuracy**: [81 %]
-- **GRU Model Accuracy**: [82 %]
+- **GRU Model Accuracy**: [82.9 %]
 
 Both models perform well, and their accuracy depends on the complexity of the dataset and the number of training epochs.
+
+![Results Comparison](https://example.com/results-comparison.gif)  <!-- Replace with an actual GIF link -->
 
 ## Conclusion
 
